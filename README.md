@@ -39,3 +39,12 @@ npm install && npm run build && npm prune --production
 > A sample `screen` script can be found in [start_eiko.sh](./start_eiko.sh).
 
 To start the bot, run `npm start`.
+
+### Developer
+> **Note**  
+> `eval` requires debug mode to be turned on by setting `DEBUG_MODE` in your [`dev.env`](./dev.env_example).
+
+Erase cached slash commands by running the following with `eval`:
+```
+client.application.commands.set([]);
+```
