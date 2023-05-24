@@ -36,7 +36,7 @@ npm install && npm run build && npm prune --production
 
 ### Usage
 > **Note**  
-> A sample `screen` script can be found in [start_eiko.sh.example](./start_eiko.sh.example).
+> A sample `screen` script can be found in [start_eiko.sh_example](./start_eiko.sh_example).
 
 To start the bot, run `npm start`.
 
