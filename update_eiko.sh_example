@@ -1,0 +1,5 @@
+# Point file path to working directory
+cd ~/eiko/
+git pull
+npm install && npm run build && npm prune --production
+exec $SHELL
