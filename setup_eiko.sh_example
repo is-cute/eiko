@@ -1,5 +1,12 @@
 # Point file path to working directory
 cd ~/eiko/
+
+# Get updates
 git pull
+
+# Delete moderation commands (optional)
+# rm -rf src/commands/moderation/
+
+# Build eiko
 npm install && npm run build && npm prune --production
 exec $SHELL
