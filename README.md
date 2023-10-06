@@ -1,12 +1,12 @@
 # eiko
 
-A (cute) modular music bot built on [Rawon](https://github.com/Clytage/rawon).
+A (cute) modular music bot powered by [Rawon](https://github.com/Clytage/rawon).
 
 ## 📃 About
 
 eiko is a fork of [Rawon](https://github.com/Clytage/rawon), a simple and modular Discord bot project.
 
-This repository is used to control updates and features for customized instances of eiko.
+This repository is used to control updates and features for customized instances.
 
 ## 🌠 Deployment
 
@@ -15,7 +15,7 @@ This repository is used to control updates and features for customized instances
 
 ### Dependencies
 
-eiko requires [Node.js](https://nodejs.org) version `16.6.0` or higher.
+Rawon requires [Node.js](https://nodejs.org) version `16.6.0` or higher.
 
 Install the latest version using `curl`:
 
@@ -35,7 +35,7 @@ git clone https://github.com/is-cute/eiko eiko && cd eiko
 > **Note**  
 > Command modules can be optionally removed under `src/commands`. *Modules that you wish to remove must be done prior to building.*
 
-Create a [`.env`](./.env_example) file in your working directory. Then, build eiko using your config:
+Create a [`.env`](./.env_example) file in your working directory. Build Rawon using your config:
 
 ```sh
 npm install && npm run build && npm prune --production
@@ -46,7 +46,7 @@ npm install && npm run build && npm prune --production
 > **Note**  
 > A sample `screen` script can be found [here](./start_eiko.sh_example).
 
-To start the bot, run `npm start`.
+To start the bot, run `npm start` in your terminal.
 
 ### Developer
 
