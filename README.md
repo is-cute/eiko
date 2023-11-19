@@ -10,8 +10,7 @@ This repository is used to control updates and features for customized instances
 
 ## 🌠 Deployment
 
-> **Note**  
-> You can find full deployment instructions in the [official repository](https://github.com/Clytage/rawon).
+You can find full deployment instructions in the [official repository](https://github.com/Clytage/rawon).
 
 ### Dependencies
 
@@ -32,7 +31,7 @@ Clone this GitHub Repository:
 git clone https://github.com/is-cute/eiko eiko && cd eiko
 ```
 
-> **Note**  
+> [!NOTE]
 > Command modules can be optionally removed under `src/commands`. *Modules that you wish to remove must be done prior to building.*
 
 Create a [`.env`](./.env_example) file in your working directory. Build Rawon using your config:
@@ -43,14 +42,13 @@ npm install && npm run build && npm prune --production
 
 ### Usage
 
-> **Note**  
-> A sample `screen` script can be found [here](./start_eiko.sh_example).
+A sample `screen` script can be found [here](./start_eiko.sh_example).
 
 To start the bot, run `npm start` in your terminal.
 
 ### Developer
 
-> **Note**  
+> [!IMPORTANT]
 > `eval` requires debug mode to be turned on by setting `DEBUG_MODE` in your [`dev.env`](./dev.env_example).
 
 Erase cached slash commands by running the following with `eval`:
