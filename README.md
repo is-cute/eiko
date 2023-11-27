@@ -1,16 +1,16 @@
 # eiko
 
-A (cute) modular music bot powered by [Rawon](https://github.com/Clytage/rawon).
+A (cute) modular music bot powered by [Rawon](https://github.com/stegripe/rawon).
 
 ## 📃 About
 
-eiko is a fork of [Rawon](https://github.com/Clytage/rawon), a simple and modular Discord bot project.
+eiko is a fork of [Rawon](https://github.com/stegripe/rawon), a simple and modular Discord bot project.
 
 This repository is used to control updates and features for customized instances.
 
 ## 🌠 Deployment
 
-You can find full deployment instructions in the [official repository](https://github.com/Clytage/rawon).
+You can find full deployment instructions in the [official repository](https://github.com/stegripe/rawon).
 
 ### Dependencies
 
