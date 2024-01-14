@@ -12,15 +12,15 @@ This repository is used to control updates and features for customized instances
 
 You can find full deployment instructions in the [official repository](https://github.com/stegripe/rawon).
 
-### Dependencies
+### Prerequisites
 
-Rawon requires [Node.js](https://nodejs.org) version `16.6.0` or higher.
+eiko recommends [Node.js](https://nodejs.org) version `20.0.0` or later.
 
-Install the latest version using `curl`:
+You can install the latest LTS version using [NodeSource](https://github.com/nodesource/distributions):
 
 ```sh
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt install -y nodejs
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
 ```
 
 ### Building
@@ -42,14 +42,25 @@ npm install && npm run build && npm prune --production
 
 ### Usage
 
-A sample `screen` script can be found [here](./start_eiko.sh_example).
+Enter your working directory and start eiko using `npm`:
 
-To start the bot, run `npm start` in your terminal.
+```sh
+npm start
+```
+
+### Scripts
+
+Sample scripts are available in eiko's root directory:
+
+- [`setup_eiko.sh`](./setup_eiko.sh_example) - Update and build script
+- [`start_eiko.sh`](./start_eiko.sh_example) - Start script using `screen`
 
 ### Developer
 
 > [!IMPORTANT]
 > `eval` requires debug mode to be turned on by setting `DEBUG_MODE` in your [`dev.env`](./dev.env_example).
+
+#### Cleaning Slash Commands
 
 Erase cached slash commands by running the following with `eval`:
 
