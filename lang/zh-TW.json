@@ -25,6 +25,7 @@
                 "nodeVersionString": "Node.js 版本",
                 "osUptimeString": "OS 上線時間",
                 "processUptimeString": "Process 上線時間",
+                "releaseChannelString": "Release channel",
                 "serversString": "伺服器",
                 "sourceCodeString": "源代碼"
             },

@@ -25,6 +25,7 @@
                 "nodeVersionString": "Versi Node.js",
                 "osUptimeString": "Uptime OS",
                 "processUptimeString": "Uptime Process",
+                "releaseChannelString": "Release channel",
                 "serversString": "Server",
                 "sourceCodeString": "Kode sumber"
             },

@@ -25,6 +25,7 @@
                 "nodeVersionString": "Versão do Node.js",
                 "osUptimeString": "Tempo de atividade do SO",
                 "processUptimeString": "Tempo de atividade do processo",
+                "releaseChannelString": "Release channel",
                 "serversString": "Servidores",
                 "sourceCodeString": "Código-fonte"
             },

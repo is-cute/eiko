@@ -25,6 +25,7 @@
                 "nodeVersionString": "Версія Node.js",
                 "osUptimeString": "Час роботи ОС",
                 "processUptimeString": "Час роботи процесу",
+                "releaseChannelString": "Release channel",
                 "serversString": "Сервери",
                 "sourceCodeString": "Source code"
             },

@@ -25,6 +25,7 @@
                 "nodeVersionString": "Phiên bản sode.js",
                 "osUptimeString": "Thời gian hoạt động của hđh",
                 "processUptimeString": "Thời gian hoạt động thực",
+                "releaseChannelString": "Release channel",
                 "serversString": "Máy chủ",
                 "sourceCodeString": "Mã nguồn"
             },

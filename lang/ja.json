@@ -25,6 +25,7 @@
                 "nodeVersionString": "Node.jsのバージョン",
                 "osUptimeString": "OSのアップタイム",
                 "processUptimeString": "プロセスのアップタイム",
+                "releaseChannelString": "Release channel",
                 "serversString": "サーバー",
                 "sourceCodeString": "ソースコード"
             },
