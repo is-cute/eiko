@@ -24,8 +24,8 @@ RUN pnpm prune --production
 # Get ready for production
 FROM ghcr.io/hazmi35/node:18-alpine
 
-LABEL name "rawon"
-LABEL maintainer "Clytage <admin@clytage.org>"
+LABEL name "eiko"
+LABEL maintainer "is-cute <support@is-cute.moe>"
 
 # Install ffmpeg
 RUN apk add --no-cache ffmpeg python3 && ln -sf python3 /usr/bin/python
